@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "654008995510",
+    "project_id": "newtopikapp",
+    "storage_bucket": "newtopikapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654008995510:android:2ba7076bc4bfc8b62f6017",
+        "android_client_info": {
+          "package_name": "com.example.newtopikapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654008995510-4k43sngf7oudtn6u5mvr87ar4p74g98k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newtopikapp",
+            "certificate_hash": "38909cc051e3b28c971244850ab0adc95b7de5b2"
+          }
+        },
+        {
+          "client_id": "654008995510-83c8v835g23uu63cu6lcqoj9bh79vfk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyDw9rpuZjKSZd8KwVFPyN_IP2y6dCsBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654008995510-83c8v835g23uu63cu6lcqoj9bh79vfk5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

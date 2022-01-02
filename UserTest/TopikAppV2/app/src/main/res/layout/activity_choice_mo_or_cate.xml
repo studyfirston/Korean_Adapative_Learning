@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:backgroundTint="@color/background"
+    tools:context=".ChoiceMoOrCatActivity">
+<!--
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/button_mo"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:elevation="30dp"
+            android:onClick="select_mo"
+            android:padding="@dimen/cardview_default_elevation"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:padding="10dp">
+
+                <Button
+                    android:layout_width="67dp"
+                    android:layout_height="75dp"
+                    android:layout_marginRight="5dp"
+                    android:backgroundTint="@color/mustard"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    app:cornerRadius="25dp"
+                    app:icon="@drawable/mock_test" />
+
+                <LinearLayout
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/pretendard_bold"
+                        android:padding="@dimen/cardview_default_radius"
+                        android:text="Mock Test"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/pretendard_medium"
+                        android:padding="@dimen/cardview_default_radius"
+                        android:text="Korean Topik Test"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/icon_material_keyboard_arrow_right" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/button_cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:elevation="30dp"
+            android:onClick="select_mo"
+            android:padding="@dimen/cardview_default_elevation"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <Button
+                    android:layout_width="77dp"
+                    android:layout_height="82dp"
+                    android:backgroundTint="@color/mint"
+                    android:fontFamily="@font/pretendard_medium"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="select_cat"
+                    android:textSize="32sp"
+                    app:cornerRadius="25dp"
+                    app:icon="@drawable/categorical_test" />
+
+                <LinearLayout
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/pretendard_bold"
+                        android:padding="@dimen/cardview_default_radius"
+                        android:text="Categorical Test"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/pretendard_medium"
+                        android:padding="@dimen/cardview_default_radius"
+                        android:text="Korean Categorical Test"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/icon_material_keyboard_arrow_right" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:id="@+id/sign_out_menu"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="170dp"
+            android:gravity="center"
+            android:text="log out"
+            android:onClick="log_out"/>
+
+    </LinearLayout>
+-->
+</LinearLayout>

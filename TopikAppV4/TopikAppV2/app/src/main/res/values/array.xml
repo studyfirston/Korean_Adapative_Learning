@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="level">
+        <item>Topik1</item>
+        <item>Topik2</item>
+    </string-array>
+
+
+    <string-array name="round">
+        <item>35회차</item>
+        <item>36회차</item>
+        <item>41회차</item>
+        <item>47회차</item>
+        <item>52회차</item>
+        <item>60회차</item>
+        <item>64회차</item>
+    </string-array>
+
+    <string-array name="problem_count">
+        <item>10문제</item>
+        <item>15문제</item>
+        <item>20문제</item>
+        <item>25문제</item>
+        <item>30문제</item>
+        <item>35문제</item>
+        <item>40문제</item>
+        <item>45문제</item>
+        <item>50문제</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>상황과 그에 다른 반응</item>
+        <item>어휘</item>
+        <item>상황 추론</item>
+        <item>내용 일치</item>
+        <item>중심 생각</item>
+        <item>내용 추론</item>
+        <item>어휘/문법</item>
+        <item>빈칸 채우기</item>
+        <item>순서 배열</item>
+    </string-array>
+
+    <string-array name="category_num">
+        <item>1개</item>
+        <item>2개</item>
+        <item>3개</item>
+
+    </string-array>
+
+    <string-array name="problem_count_cat">
+        <item>5문제</item>
+        <item>8문제</item>
+        <item>10문제</item>
+    </string-array>
+
+    <string-array name="problem_count_cat2">
+        <item>3문제</item>
+        <item>5문제</item>
+        <item>8문제</item>
+    </string-array>
+
+    <string-array name="Two_total_count_cat">
+        <item>5문제</item>
+        <item>10문제</item>
+        <item>15문제</item>
+        <item>20문제</item>
+    </string-array>
+
+    <string-array name="Three_total_count_cat">
+        <item>5문제</item>
+        <item>10문제</item>
+        <item>15문제</item>
+        <item>20문제</item>
+    </string-array>
+</resources>

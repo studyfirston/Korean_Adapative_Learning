@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="round">
+        <item>35회차</item>
+        <item>36회차</item>
+        <item>52회차</item>
+        <item>60회차</item>
+        <item>64회차</item>
+
+    </string-array>
+
+    <string-array name="problem_count">
+        <item>10문제</item>
+        <item>15문제</item>
+        <item>20문제</item>
+        <item>25문제</item>
+        <item>35문제</item>
+        <item>40문제</item>
+        <item>45문제</item>
+        <item>50문제</item>
+        <item>전체풀기</item>
+    </string-array>
+
+
+</resources>

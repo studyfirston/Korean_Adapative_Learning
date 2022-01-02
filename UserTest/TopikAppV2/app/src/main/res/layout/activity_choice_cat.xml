@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChoiceMoActivity"
+    android:background="@color/background"
+    android:backgroundTint="@color/background"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="604dp"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="527dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="110dp"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp">
+
+                        <ImageButton
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:backgroundTint="@color/orange"
+                            android:insetBottom="0dp"
+                            android:src="@drawable/crown"
+                            app:iconPadding="0dp" />
+
+                        <TextView
+                            android:id="@+id/text_problems"
+                            android:layout_width="200dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/pretendard_medium"
+                            android:gravity="left"
+                            android:text="Level"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+
+                    </LinearLayout>
+
+                    <Spinner
+                        android:id="@+id/spinner_lev"
+                        android:layout_width="310dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="64dp"
+                        android:background="@color/background"
+                        android:duplicateParentState="false"
+                        android:elevation="10dp"
+                        android:entries="@array/level"
+                        android:fontFamily="@font/pretendard_medium"
+                        android:gravity="center" />
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp">
+
+                        <ImageButton
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:backgroundTint="@color/light_red"
+                            android:insetBottom="0dp"
+                            android:src="@drawable/n"
+                            app:iconPadding="0dp" />
+
+                        <TextView
+                            android:layout_width="270dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/pretendard_medium"
+                            android:gravity="left"
+                            android:text="The number of categories"
+                            android:textColor="@color/black"
+                            android:textSize="21sp" />
+
+                    </LinearLayout>
+
+                    <Spinner
+                        android:id="@+id/spinner_cat_num"
+                        android:layout_width="310dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="64dp"
+                        android:background="@color/background"
+                        android:duplicateParentState="false"
+                        android:elevation="10dp"
+                        android:entries="@array/category_num"
+                        android:fontFamily="@font/pretendard_medium"
+                        android:gravity="center" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cat_cardView"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp">
+
+
+                        <ImageButton
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:backgroundTint="@color/mustard"
+                            android:insetBottom="0dp"
+                            android:src="@drawable/category_fill"
+                            app:iconPadding="0dp" />
+
+                        <TextView
+                            android:layout_width="300dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/pretendard_medium"
+                            android:gravity="left"
+                            android:text="Categories"
+                            android:textColor="@color/black"
+                            android:textSize="22sp" />
+
+                    </LinearLayout>
+
+                    <Spinner
+                        android:id="@+id/spinner_cat"
+                        android:layout_width="310dp"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/background"
+                        android:elevation="5dp"
+                        android:fontFamily="@font/pretendard_medium"
+                        android:gravity="left" />
+
+
+                    <Spinner
+                        android:id="@+id/spinner_cat2"
+                        android:layout_width="310dp"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/background"
+                        android:elevation="5dp"
+                        android:fontFamily="@font/pretendard_medium"
+                        android:gravity="left"
+                        android:visibility="gone" />
+
+                    <Spinner
+                        android:id="@+id/spinner_cat3"
+                        android:layout_width="310dp"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/background"
+                        android:elevation="5dp"
+                        android:fontFamily="@font/pretendard_medium"
+                        android:gravity="left"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp">
+
+
+                        <ImageButton
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:backgroundTint="@color/gray"
+                            android:insetBottom="0dp"
+                            android:src="@drawable/exclamation"
+                            app:iconPadding="0dp" />
+
+                        <TextView
+                            android:layout_width="300dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/pretendard_medium"
+                            android:gravity="left"
+                            android:text="The number of problems"
+                            android:textColor="@color/black"
+                            android:textSize="22sp" />
+
+
+                    </LinearLayout>
+
+                    <Spinner
+                        android:id="@+id/spinner_prob_cat"
+                        android:layout_width="310dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/background"
+                        android:elevation="5dp"
+                        android:entries="@array/problem_count_cat"
+                        android:fontFamily="@font/pretendard_medium"
+                        android:gravity="left"
+                        android:visibility="visible" />
+
+                    <Spinner
+                        android:id="@+id/spinner_prob_cat2"
+                        android:layout_width="310dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/background"
+                        android:elevation="5dp"
+                        android:entries="@array/problem_count_cat2"
+                        android:fontFamily="@font/pretendard_medium"
+                        android:gravity="left"
+                        android:visibility="gone" />
+
+                    <Spinner
+                        android:id="@+id/Two_total_spinner_prob_cat"
+                        android:layout_width="310dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/background"
+                        android:elevation="5dp"
+                        android:entries="@array/Two_total_count_cat"
+                        android:fontFamily="@font/pretendard_medium"
+                        android:gravity="left"
+                        android:visibility="gone" />
+
+                    <Spinner
+                        android:id="@+id/Three_total_spinner_prob_cat"
+                        android:layout_width="310dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/background"
+                        android:elevation="5dp"
+                        android:entries="@array/Three_total_count_cat"
+                        android:fontFamily="@font/pretendard_medium"
+                        android:gravity="left"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="145dp">
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="22dp"
+            android:fontFamily="@font/pretendard_medium"
+            android:onClick="go_solve_cat"
+            android:text="Go"
+            android:textSize="23sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

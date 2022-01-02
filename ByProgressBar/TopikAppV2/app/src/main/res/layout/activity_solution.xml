@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SolutionActivity">
+
+    <ListView
+        android:id="@+id/listView_solution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:listitem="@layout/item_problem" />
+    <TextView
+        android:id="@+id/solutionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="여기에는 해설이 들어갈 것 입니다.ㅁㄴㅇㄹㅇㅁㄴㄻㄴㅇㄹㅇㄴㅁㄹㄴㅇㅁㄻㅇㄴㄻㄴㅇㄻㄴㅇㄹㄴㅇㅁㄹ" />
+
+</LinearLayout>

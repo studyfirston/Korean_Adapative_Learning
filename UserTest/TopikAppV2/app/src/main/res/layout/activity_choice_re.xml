@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChoiceReActivity"
+    android:background="@color/background"
+    android:backgroundTint="@color/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp">
+
+
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:backgroundTint="@color/sky_blue"
+                        android:insetBottom="0dp"
+                        android:src="@drawable/n"
+                        app:iconPadding="0dp" />
+
+                    <TextView
+                        android:id="@+id/text_prob"
+                        android:layout_width="300dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/pretendard_medium"
+                        android:gravity="left"
+                        android:text="The number of questions"
+                        android:textColor="@color/black"
+                        android:textSize="22sp" />
+
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/spinner_prob"
+                    android:layout_width="310dp"
+                    android:layout_height="40dp"
+                    android:background="@color/background"
+                    android:duplicateParentState="false"
+                    android:elevation="5dp"
+                    android:layout_marginTop="12dp"
+                    android:entries="@array/problem_count"
+                    android:fontFamily="@font/pretendard_medium"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:layout_weight="3">
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/pretendard_medium"
+            android:onClick="go_solve_re"
+            android:text="Go"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

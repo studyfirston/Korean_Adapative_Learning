@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning/UserTest/TopikAppV2/app/src/main/res/layout/activity_choice_mo.xml" value="0.1850877192982456" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning/UserTest/TopikAppV2/app/src/main/res/layout/activity_choice_mo_or_cate.xml" value="0.1850877192982456" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning/UserTest/TopikAppV2/app/src/main/res/layout/activity_choice_re.xml" value="0.156140350877193" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning/UserTest/TopikAppV2/app/src/main/res/layout/activity_main.xml" value="0.1850877192982456" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning/UserTest/TopikAppV2/app/src/main/res/layout/activity_scoring.xml" value="0.1850877192982456" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning/UserTest/TopikAppV2/app/src/main/res/layout/item_move_list.xml" value="0.18289473684210528" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning/UserTest/TopikAppV2/app/src/main/res/layout/item_problem.xml" value="0.1" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning/UserTest/TopikAppV2/app/src/main/res/layout/item_time_list.xml" value="0.18289473684210528" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning/UserTest/TopikAppV2/app/src/main/res/layout/item_user_result.xml" value="0.1850877192982456" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning/UserTest/TopikAppV2/app/src/main/res/layout/nickname_input.xml" value="0.1850877192982456" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning/UserTest/TopikAppV2/app/src/main/res/layout/practice.xml" value="0.1850877192982456" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V7/TopikAppV2/app/src/main/res/layout/activity_choice_cat.xml" value="0.2760416666666667" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V7/TopikAppV2/app/src/main/res/layout/activity_choice_mo.xml" value="0.2760416666666667" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V7/TopikAppV2/app/src/main/res/layout/activity_choice_mo_or_cate.xml" value="0.1" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V7/TopikAppV2/app/src/main/res/layout/activity_main.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V7/TopikAppV2/app/src/main/res/layout/activity_scoring.xml" value="0.1" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V7/TopikAppV2/app/src/main/res/layout/activity_sign_in.xml" value="0.2171875" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V7/TopikAppV2/app/src/main/res/layout/activity_solution.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V7/TopikAppV2/app/src/main/res/layout/activity_solve_cat.xml" value="0.1" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V7/TopikAppV2/app/src/main/res/layout/activity_solve_mo.xml" value="0.1" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V7/TopikAppV2/app/src/main/res/layout/activity_time.xml" value="0.1" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V7/TopikAppV2/app/src/main/res/layout/item_move_list.xml" value="0.1" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V7/TopikAppV2/app/src/main/res/layout/item_problem.xml" value="0.1" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V7/TopikAppV2/app/src/main/res/layout/item_time_list.xml" value="0.22592592592592592" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V8__fontStyle/TopikAppV2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.125" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V8__fontStyle/TopikAppV2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.125" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V8__fontStyle/TopikAppV2/app/src/main/res/font/font.xml" value="0.1" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V8__fontStyle/TopikAppV2/app/src/main/res/layout/activity_choice_cat.xml" value="0.375" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V8__fontStyle/TopikAppV2/app/src/main/res/layout/activity_choice_mo.xml" value="0.25" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V8__fontStyle/TopikAppV2/app/src/main/res/layout/activity_choice_mo_or_cate.xml" value="0.1" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V8__fontStyle/TopikAppV2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V8__fontStyle/TopikAppV2/app/src/main/res/layout/activity_scoring.xml" value="0.2515625" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V8__fontStyle/TopikAppV2/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V8__fontStyle/TopikAppV2/app/src/main/res/layout/activity_solution.xml" value="0.2515625" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V8__fontStyle/TopikAppV2/app/src/main/res/layout/activity_solve_cat.xml" value="0.3194444444444444" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V8__fontStyle/TopikAppV2/app/src/main/res/layout/activity_solve_cat2.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V8__fontStyle/TopikAppV2/app/src/main/res/layout/activity_solve_mo.xml" value="0.2515625" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V8__fontStyle/TopikAppV2/app/src/main/res/layout/activity_time.xml" value="0.10277777777777777" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V8__fontStyle/TopikAppV2/app/src/main/res/layout/item_move_list.xml" value="0.10277777777777777" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V8__fontStyle/TopikAppV2/app/src/main/res/layout/item_problem.xml" value="0.10277777777777777" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V8__fontStyle/TopikAppV2/app/src/main/res/layout/item_time_list.xml" value="0.10277777777777777" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V8__fontStyle/TopikAppV2/app/src/main/res/layout/item_user_result.xml" value="0.10277777777777777" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V8__fontStyle/TopikAppV2/app/src/main/res/layout/nickname_input.xml" value="0.1" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V8__fontStyle/TopikAppV2/app/src/main/res/layout/practice.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V8__fontStyle/TopikAppV2/app/src/main/res/menu/main.xml" value="0.1" />
+        <entry key="..\:/Users/82107/Documents/GitHub/Korean_Adaptive_Learning_de/V8__fontStyle/TopikAppV2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
